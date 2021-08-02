@@ -1,0 +1,482 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?6u5bkp');
+  src:  url('../fonts/icomoon.eot?6u5bkp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6u5bkp') format('truetype'),
+    url('../fonts/icomoon.woff?6u5bkp') format('woff'),
+    url('../fonts/icomoon.svg?6u5bkp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 26px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aboutus:before {
+  content: "\e900";
+  
+}
+.icon-armchair:before {
+  content: "\e901";
+
+
+}
+.icon-barsky-logo-gold .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path2:before {
+  content: "\e903";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path3:before {
+  content: "\e904";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path4:before {
+  content: "\e905";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path5:before {
+  content: "\e906";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path6:before {
+  content: "\e907";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path7:before {
+  content: "\e908";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path8:before {
+  content: "\e909";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 55, 41);
+}
+.icon-barsky-logo-gold .path9:before {
+  content: "\e90a";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path10:before {
+  content: "\e90b";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path11:before {
+  content: "\e90c";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path12:before {
+  content: "\e90d";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path13:before {
+  content: "\e90e";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path14:before {
+  content: "\e90f";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path15:before {
+  content: "\e910";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path16:before {
+  content: "\e911";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path17:before {
+  content: "\e912";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path18:before {
+  content: "\e913";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path19:before {
+  content: "\e914";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path20:before {
+  content: "\e915";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path21:before {
+  content: "\e916";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path22:before {
+  content: "\e917";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path23:before {
+  content: "\e918";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path24:before {
+  content: "\e919";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path25:before {
+  content: "\e91a";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path26:before {
+  content: "\e91b";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path27:before {
+  content: "\e91c";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.icon-barsky-logo-gold .path28:before {
+  content: "\e91d";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.icon-barsky-logo-gold .path29:before {
+  content: "\e91e";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.icon-barsky-logo-gold .path30:before {
+  content: "\e91f";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.icon-barsky-logo-gold .path31:before {
+  content: "\e920";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.icon-barsky-logo-gold .path32:before {
+  content: "\e921";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.icon-barsky-logo-gold .path33:before {
+  content: "\e922";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.icon-barsky-logo-gold .path34:before {
+  content: "\e923";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.icon-barsky-logo-gold .path35:before {
+  content: "\e924";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path36:before {
+  content: "\e925";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path37:before {
+  content: "\e926";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path38:before {
+  content: "\e927";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path39:before {
+  content: "\e928";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path40:before {
+  content: "\e929";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path41:before {
+  content: "\e92a";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path42:before {
+  content: "\e92b";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path43:before {
+  content: "\e92c";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path44:before {
+  content: "\e92d";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path45:before {
+  content: "\e92e";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path46:before {
+  content: "\e92f";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path47:before {
+  content: "\e930";
+  margin-left: -1.2041015625em;
+  color: rgb(255, 213, 84);
+}
+.icon-barsky-logo-gold .path48:before {
+  content: "\e931";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path49:before {
+  content: "\e932";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path50:before {
+  content: "\e933";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barsky-logo-gold .path51:before {
+  content: "\e934";
+  margin-left: -1.2041015625em;
+  color: rgb(0, 0, 0);
+}
+.icon-barskylogo-red:before {
+  content: "\e935";
+  color: #e03e36;
+}
+.icon-basket:before {
+  content: "\e936";
+ 
+}
+.icon-blog:before {
+  content: "\e937";
+  
+}
+.icon-cell:before {
+  content: "\e938";
+ 
+}
+.icon-collaboration:before {
+  content: "\e939";
+  
+}
+.icon-compare-red:before {
+  content: "\e93a";
+  color: #e03e36;
+}
+.icon-compare:before {
+  content: "\e93b";
+  
+
+}
+.icon-contacts:before {
+  content: "\e93c";
+  
+}
+.icon-delivery:before {
+  content: "\e93d";
+  
+}
+.icon-facebook:before {
+  content: "\e93e";
+
+
+}
+.icon-favorite-red:before {
+  content: "\e93f";
+  color: #e03e36;
+}
+.icon-favorite:before {
+  content: "\e940";
+  
+ }
+.icon-filter16:before {
+  content: "\e941";
+}
+.icon-filter:before {
+  content: "\e942";
+}
+.icon-furniture:before {
+  content: "\e943";
+ 
+}
+.icon-homepage:before {
+  content: "\e944";
+  color: #e03e36;
+}
+.icon-instagram:before {
+  content: "\e945";
+ 
+}
+.icon-location:before {
+  content: "\e946";
+  color: #999;
+}
+.icon-mail:before {
+  content: "\e947";
+  color: #999;
+}
+.icon-menu:before {
+  content: "\e948";
+
+}
+.icon-other:before {
+  content: "\e949";
+  
+}
+.icon-payment .path1:before {
+  content: "\e94a";
+  color: rgb(204, 204, 204);
+  opacity: 0.5;
+}
+.icon-payment .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.icon-profile:before {
+  content: "\e94c";
+}
+.icon-sale:before {
+  content: "\e94d";
+  
+  
+}
+.icon-search:before {
+  content: "\e94e";
+  
+}
+.icon-sorting16:before {
+  content: "\e94f";
+}
+.icon-sorting:before {
+  content: "\e950";
+}
+.icon-station:before {
+  content: "\e951";
+
+}
+.icon-table:before {
+  content: "\e952";
+
+}
+.icon-VR-logo .path1:before {
+  content: "\e953";
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path2:before {
+  content: "\e954";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path3:before {
+  content: "\e955";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path4:before {
+  content: "\e956";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path5:before {
+  content: "\e957";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path6:before {
+  content: "\e958";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path7:before {
+  content: "\e959";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path8:before {
+  content: "\e95a";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path9:before {
+  content: "\e95b";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path10:before {
+  content: "\e95c";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-VR-logo .path11:before {
+  content: "\e95d";
+  margin-left: -4.5458984375em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.icon-youtube:before {
+  content: "\e95e";
+
+}
+.icon-checkmark:before {
+  content: "\ea10";
+  color: aqua;
+}
