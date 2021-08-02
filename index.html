@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Интернет магазин мебели Barsky - купить кресла, столы, мебель</title>
+  <meta name="description" content="Компьютерные кресла, офисные столы и стулья от производителя по оптовой цене! Акции и новинки, скидки и выгодные предложения с доставкой по Украине! Заказ, информация и вопросы по тел. +38 (044) 492-61-00">
+  <meta name="keywords" content="интернет, магазин, мебель, столы, стулья, кресла, купить, покупка, доставка, barsky">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon.ico">
+  <link rel="preload" href="fonts/Rubik-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Rubik-Medium.woff2" as="font">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/iconsfont.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="offset-lg-2  col-lg-6">
+            <ul class="header-top__menu">
+              <li><a href="" class="header-top__link">О нас</a></li>
+              <li><a href="" class="header-top__link">Оплата и доставка</a></li>
+              <li><a href="" class="header-top__link">Сотрудничество</a></li>
+              <li><a href="" class="header-top__link">Вакансии</a></li>
+              <li><a href="contacts.html" class="header-top__link">Контакты</a></li>
+            </ul>
+          </div>
+          <div class=" col-lg-4">
+            <div class=" header-top__wrap phone-header">
+              <div class="header-top-phone">
+                <a class="header-top-phone-link" href="tel:+380442995349">
+                  <img src="image/icon/cell-icon.svg" width="20" height="20" alt="phone" class="phone"> +38 (044) 299 53 49
+                </a>
+              </div>
+              <div class="header-top__lang">
+                <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-language">
+                  <button class="header-top-lang__item active mr-2"  name="ru-ru"> RU</button>
+                  <button class="header-top-lang__item "  name="ua-ua">UA</button>
+                  <input type="hidden" name="code" value="" />
+                  <input type="hidden" name="redirect" value="{{ redirect }}" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="mobile-bg"></div>
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="header__burger">
+            <span></span>
+          </div>
+
+          <div class="col-5 col-lg-2">
+            <a href="" class="header__logo">
+              <img src="image/icon/barskylogo-red.svg" width="157" height="130" alt="Barsky" class="header__logo-img">
+            </a>
+          </div>
+          <div class="col-1 col-sm-1 col-md-1 col-lg-6">
+
+            <nav class="header__menu">
+              <div class="header__menu-wrap">
+                <div class="header__menu-list">
+                  <img src="image/icon/cell-icon-mob.svg" width="20" height="20" alt="phone" class="phone d-flex icon-cell">
+
+                  <a class="header__menu-item" href="tel:+380442995349">+38 (044) 299 53 49</a>
+                </div>
+                <div class="header__menu-list lang-header">
+                  <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-language">
+                    <button class="header-top-lang__item header-mob-lang__item active mr-2"  name="ru-ru"> RU</button>
+                    <button class="header-top-lang__item header-mob-lang__item"  name="ua-ua">UA</button>
+                    <input type="hidden" name="code" value="" />
+                    <input type="hidden" name="redirect" value="{{ redirect }}" />
+                  </form>
+                </div>
+              </div>
+              <ul class="header-list ">
+                <li>
+                  <a href="catalog.html" class="header__link">
+                    <img src="image/icon/table-icon.svg" class="header__icon" alt="icon"> Столы
+                  </a>
+                </li>
+                <li>
+                  <a href="catalog.html" class="header__link">
+                    <img src="image/icon/armchair-icon.svg" class="header__icon" alt="icon"> Кресла
+                  </a>
+                </li>
+                <li>
+                  <a href="catalog.html" class="header__link">
+                    <img src="image/icon/station-icon.svg" class="header__icon" alt="icon"> Станции
+                  </a>
+                </li>
+                <li>
+                  <a href="catalog.html" class="header__link">
+                    <img src="image/icon/furniture-icon.svg" class="header__icon" alt="icon"> Мебель
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="header__link">
+                    <img src="image/icon/other-icon.svg" class="header__icon" alt="icon"> Аксессуары
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="header__link">
+                    <img src="image/icon/sale-icon.svg" class="header__icon" alt="icon"> Акции
+                  </a>
+                </li>
+                <li>
+                  <a class="rectangle" href="blog.html">
+
+                    <img src="image/icon/blog-icon.svg" alt="magazine" width="23" class="header__icon rectangle-img rectangle-img__blog-icon">
+                    <img src="image/icon/VR-logo-2.svg" alt="magazine" width="111" height="18" class="rectangle-img">
+
+                  </a>
+                </li>
+              </ul>
+              <ul class="mobile-list">
+                <li>
+                  <a href="profile.html" class="header__link">
+                    <img src="image/icon/profile-icon_.svg" class="header__icon" alt="icon" width="21" height="21"> Профиль
+                  </a>
+                </li>
+                <li>
+                  <a href="favourite.html" class="header__link">
+                    <img src="image/icon/favorite-icon_.svg" class="header__icon" alt="icon" width="21" height="21"> Избранное
+                  </a>
+                </li>
+                <li>
+                  <a href="compare.html" class="header__link">
+                    <img src="image/icon/compare-icon_.svg" class="header__icon" alt="icon" width="21" height="21"> Сравнения
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="header__link">
+                    <img src="image/icon/basket-icon_.svg" class="header__icon" alt="icon" width="21" height="21"> Корзина
+                  </a>
+                </li>
+                <li>
+                  <a href="cart.html" class="header__link"> <img src="image/icon/aboutus-icon.svg" class="header__icon" alt="icon"> О нас</a>
+                </li>
+                <li>
+                  <a href="" class="header__link">
+                    <img src="image/icon/delivery-icon.svg" class="header__icon" alt="icon"> Оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="" class="header__link">
+                    <img src="image/icon/collaboration-icon.svg" class="header__icon" alt="icon"> Сотрудничество
+                  </a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="header__link">
+                    <img src="image/icon/contacts-icon.svg" class="header__icon" alt="icon"> Контакты
+                  </a>
+                </li>
+              </ul>
+              <ul class="social-header d-flex">
+                <li>
+                  <a href="https://www.instagram.com/barsky.furniture/" class="social-header__link" target="_blank" title="Youtube">
+                    <img src="image/icon/instagram-icon_.svg" class="header__icon" alt="icon" width="20" height="20"> </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCphbxpXX3J65smsKXR62KGw/featured" class="social-header__link" target="_blank" title="Youtube">
+                    <img src="image/icon/youtube-icon_.svg" class="header__icon" alt="icon" width="20" height="20"> </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/armchairs.Barsky/" class="social-header__link" target="_blank" title="Facebook">
+                    <img src="image/icon/facebook-icon_.svg" class="header__icon" alt="icon" width="20" height="20"> </a>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-4 col-md-5 col-lg-3 ml-auto">
+            <div class="header__body">
+              <div class="navigation">
+                <ul class="navigation-list ">
+                  <li class="">
+                    <div class="wrapper">
+                      <div class="search-box ">
+                        <input type="text" placeholder="Поиск" class="input">
+                        <div class="search-btn ">
+                          <svg class=" search-icon" width="25" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                            <path id="search" fill="" d="M9.5,2C5.358,2,2,5.358,2,9.5S5.358,17,9.5,17S17,13.642,17,9.5S13.642,2,9.5,2z M9.5,16
+                        C5.916,16,3,13.084,3,9.5S5.916,3,9.5,3S16,5.916,16,9.5S13.084,16,9.5,16z M9,4.5v1C7.07,5.5,5.5,7.07,5.5,9h-1
+                        C4.5,6.519,6.519,4.5,9,4.5z M22.354,21.646l-0.707,0.707l-6.5-6.5l0.707-0.707L22.354,21.646z" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="icon-mobile__none">
+                    <div class="added"></div>
+                    <a class="navigation-item " href="compare.html">
+                      <svg class="search-icon" width="25" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                        <path fill="" d="M12,20h7v1H4v-1h7V4H5V3h13v1h-6V20z M18,6l3,12h-8l3-12H18z M19.719,17l-2.5-10h-0.438
+                  l-2.5,10H19.719z M10,18H2L5,6h2L10,18z M3.281,17h5.438l-2.5-10H5.781L3.281,17z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-mobile__none">
+                    <a class="navigation-item" href="favourite.html">
+                      <svg width="25" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                        <path fill="" d="M17,5c2.763,0,4,2.148,4,4.276c0,0.446-0.074,0.885-0.219,1.304
+                 c-0.127,0.366-0.502,1.316-1.247,2.233c-0.57,0.702-1.672,1.851-3.102,3.234c-0.806,0.78-3.094,2.621-4.432,3.679
+                 c-1.149-0.909-3.577-2.851-4.433-3.679c-1.43-1.383-2.532-2.532-3.102-3.234c-0.745-0.918-1.12-1.868-1.247-2.233
+                 C3.074,10.16,3,9.722,3,9.276C3,7.148,4.237,5,7,5c1.396,0,3.357,1.145,4.243,2.172c0.19,0.22,0.466,0.347,0.757,0.347
+                 s0.567-0.127,0.757-0.347C13.643,6.145,15.604,5,17,5 M17,4c-1.767,0-3.969,1.323-5,2.519c0,0,0,0,0,0h0C10.969,5.323,8.767,4,7,4
+                 C3.893,4,2,6.362,2,9.276c0,0.569,0.096,1.118,0.274,1.631C2.53,11.645,3,12.594,3.689,13.444c0.79,0.973,2.254,2.424,3.183,3.323
+                 C8.054,17.91,12,21,12,21h0c0,0,3.946-3.09,5.128-4.234c0.929-0.899,2.393-2.35,3.183-3.323c0.689-0.849,1.16-1.798,1.415-2.536
+                 C21.904,10.394,22,9.845,22,9.276C22,6.362,20.107,4,17,4L17,4z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-mobile__none">
+                    <a class="navigation-item" href="profile.html">
+                      <svg width="25" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                        <path id="profile" fill="" d="M12,14c3.314,0,6-2.686,6-6s-2.686-6-6-6S6,4.686,6,8S8.686,14,12,14z M12,3
+                     c2.757,0,5,2.243,5,5s-2.243,5-5,5s-5-2.243-5-5S9.243,3,12,3z M22,21.208V22h-1v-0.792C21,18.336,19.315,16,17.245,16H6.755
+                     C4.685,16,3,18.336,3,21.208V22H2v-0.792C2,17.785,4.133,15,6.755,15h10.489C19.867,15,22,17.785,22,21.208z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="navigation-item" href="cart.html">
+                      <svg class=" basket-icon" width="25" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                        <path fill="" d="M20.974,5.658l-3,9C17.906,14.862,17.715,15,17.5,15H10v-1h7.14l2.667-8H7V5h13.5
+	c0.161,0,0.312,0.077,0.406,0.208C21,5.338,21.025,5.506,20.974,5.658z M4.983,3.37C4.924,3.152,4.726,3,4.5,3H1v1h3.117l3.4,12.63
+	C7.576,16.848,7.774,17,8,17h10v-1H8.383L4.983,3.37z M11,20c0,1.105-0.895,2-2,2s-2-0.895-2-2s0.895-2,2-2S11,18.895,11,20z M10,20
+	c0-0.551-0.449-1-1-1s-1,0.449-1,1s0.449,1,1,1S10,20.551,10,20z M18,20c0,1.105-0.895,2-2,2s-2-0.895-2-2s0.895-2,2-2
+	S18,18.895,18,20z M17,20c0-0.551-0.449-1-1-1s-1,0.449-1,1s0.449,1,1,1S17,20.551,17,20z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="offer" class="offer">
+    <div class="one-slider">
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <section id="unit-categories" class="unit">
+    <div class="container">
+      <div class="row align-items-stretch mb-3">
+        <div class="col-12 ">
+          <p class="title-xl_ttn">
+            Категории
+          </p>
+          <div class="unit-slider">
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="product-hit" class="product">
+    <div class="container grid-container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title-xl_ttn">Хиты продаж</p>
+          <p class="title-sm title-sm__mb">15 товаров </p>
+          <div class="product-row">
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское </a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+   
+                <!-- Кнопка модального окна добавлено в корзину -->
+                <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="slider" class="offer">
+    <div class="one-slider">
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+      <div class="img-fluid">
+        <img src="image/home/desktop.jpg" alt="slider" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <section id="unit" class="unit">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title-xl_ttn">
+            Популярные подборки товаров
+          </p>
+
+          <div class="unit-slider">
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+            <div class="unit-wpap d-flex">
+              <a href="#" class="unit-content">
+                <img src="image/home/unit.jpg" alt="unit" class="unit-img">
+                <p class="unit-descrip">Кресла</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="product" class="product">
+    <div class="container grid-container">
+      <div class="row">
+        <div class="col-12 ">
+          <p class="title">Рекомендуемое</p>
+          <p class="title-sm title-sm__mb">9 товаров </p>
+          
+          <div class="product-row">
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> BSU_el-11</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                  <div class="product-add position-relative">
+                    <div class="new-product position-absolute">NEW</div>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Регулируемый стол Barsky StandUp Memory Electric 1200 x 600 мм Орех светлый</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <button class="cart-btn">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+
+            </div>
+            <div class="product-container product-container__home ">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+            <div class="product-container product-container__home">
+              <div class="product-box">
+
+                <div class="product-content">
+                  <div class="product-wrap">
+                    <div>
+                      <p class="product-code"> SD-27</p>
+                    </div>
+                    <div class="product-option">
+                      <ul class="product-option__list">
+                        <li class="product-option__item">
+                          <a class="popup-youtube" href="https://www.youtube.com/watch?v=6vbLtiDN3wI" title="YouTube video player" target="_blank">
+                            <img src="image/icon/play.svg" alt="play" class="play" width="20" height="22">
+                            <img src="image/icon/1.gif" alt="video" width="45" height="45" class="gif">
+                          </a>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="favorite-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                        <li class="product-option__item bg">
+                          <div class="compare-icons button-icons">
+                            <button class="button"></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <a class="product-img__link" href="#">
+                      <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                    </a>
+                  </div>
+                </div>
+                <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</a>
+              </div>
+              <div class="product-info">
+                <div class="price">
+                  <div class="price__old">
+                    <div class="old-price">7 900 ₴</div>
+                    <div class="discount">- 1 901</div>
+                  </div>
+                  <div class="new-price">7 999 ₴</div>
+                </div>
+                <!-- Кнопка модального окна добавлено в корзину -->
+               <button class="cart-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contents" class="contents">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title-xl_ttn">Статьи из блога</p>
+        </div>
+        <div class="col-12">
+ <div class="article-wrap">
+   <article class="reviews-preview reviews-preview__mob">
+            <picture class="reviews-preview__thumbnail article-preview__thumbnail">
+              <img src="image/catalog/Blog_IMG_6281.png" alt="thumbnail">
+            </picture>
+            <a class="rectangle-preview__tags rectangle-preview__iner" href="#" data-toggle="dropdown">
+              <img src="image/icon/blog-icon.svg" alt="magazine" width="14" height="13" class="rectangle-img rectangle-img__blog-icon">
+              <img src="image/icon/VR-logo-2.svg" alt="magazine" width="74" height="12" class="rectangle-img rectangle-img__VR-logo">
+            </a>
+            <a href="#" class="article-preview__link--mob">
+                Что такое рабочая станция?
+              </a>
+          </article>
+     
+    
+          <article class="reviews-preview reviews-preview__mob">
+            <picture class="reviews-preview__thumbnail article-preview__thumbnail">
+              <img src="image/catalog/Blog_IMG_6281.png" alt="thumbnail">
+            </picture>
+            <a class="rectangle-preview__tags rectangle-preview__iner" href="#" data-toggle="dropdown">
+              <img src="image/icon/blog-icon.svg" alt="magazine" width="14" height="13" class="rectangle-img rectangle-img__blog-icon">
+              <img src="image/icon/VR-logo-2.svg" alt="magazine" width="74" height="12" class="rectangle-img rectangle-img__VR-logo">
+            </a>
+            <a href="#" class="article-preview__link--mob">
+                Вертикальные компьютерные мышки: польза для рук и позвоночника
+              </a>
+          </article>
+
+   
+          <article class="reviews-preview reviews-preview__mob">
+            <picture class="reviews-preview__thumbnail article-preview__thumbnail">
+              <img src="image/catalog/Blog_IMG_6281.png" alt="thumbnail">
+            </picture>
+            <a class="rectangle-preview__tags rectangle-preview__iner" href="#" data-toggle="dropdown">
+              <img src="image/icon/blog-icon.svg" alt="magazine" width="14" height="13" class="rectangle-img rectangle-img__blog-icon">
+              <img src="image/icon/VR-logo-2.svg" alt="magazine" width="74" height="12" class="rectangle-img rectangle-img__VR-logo">
+            </a>
+            <a href="#" class="article-preview__link--mob">
+                Вертикальные компьютерные мышки: польза для рук и позвоночника
+              </a>
+          </article>
+      </div>
+        </div>
+     
+       </div>
+
+      </div>
+   
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <p class="title-md ">
+            Украинский производитель эргономичной мебели - BARSKY
+          </p>
+          <div class="about-body">
+            <p class="text-justify">
+              Когда возникает необходимость купить кресло в офис, для работы на дому или ребенку для игр перед компьютером, чем в основном аргументируются потребители? Чаще всего – ценой, именем производителя и геолокализацией. Благо, сегодня заказать мебель от производителя в другом регионе – не проблема: есть возможность доставки по почте или персонально. Возникает другой резонный вопрос – на что в первоочередном порядке обращать внимание?
+
+            </p>
+            <p class="text-justify">
+              Сегодня все больше покупателей поддерживают отечественного производителя, что не может не радовать. Компания производственных мощностей мягких кресел, столов и стульев Barskyнаправлена на отечественный рынок. Украинская продукция кресел для офиса и дома, игр и работы теперь ассоциируется с именем Barsky. Технический и конструктивный отдел, менеджмент и непосредственно производство мебели находится в Украине. Мы ценим покупателя, гарантируя бескомпромиссное европейское качество.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+ 
+</section>
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 ">
+
+        <ul class="footer-wrapper__list">
+
+          <li class="footer-wrapper__item">
+            <a href="https://www.instagram.com/barsky.furniture/" class="transition-300 footer-instagram__link" rel="nofollow" target="_blank" title="Instagram">
+              <svg class="icon-footer icon-instagram" width="26" height="26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 551 551" enable-background="new 0 0 551 551" xml:space="preserve">
+                <g>
+                  <path fill="" d="M386.9,0H164.2C73.6,0,0,73.6,0,164.2v222.7C0,477.4,73.6,551,164.2,551h222.7
+  c90.5,0,164.2-73.6,164.2-164.2V164.2C551,73.6,477.4,0,386.9,0z M495.6,386.9c0,60-48.7,108.7-108.7,108.7H164.2
+  c-60,0-108.7-48.7-108.7-108.7V164.2c0-60,48.7-108.7,108.7-108.7h222.7c60,0,108.7,48.7,108.7,108.7L495.6,386.9L495.6,386.9z" />
+                  <path fill="" d="M275.5,133C196.9,133,133,196.9,133,275.5S196.9,418,275.5,418S418,354.1,418,275.5S354.1,133,275.5,133z
+   M275.5,362.6c-48.1,0-87.1-39-87.1-87.1s39-87.1,87.1-87.1c48.1,0,87.1,39,87.1,87.1C362.6,323.6,323.6,362.6,275.5,362.6z" />
+                  <circle id="icon-footer" fill="" cx="418.3" cy="134.1" r="34.1" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-wrapper__item">
+            <a href="https://www.youtube.com/channel/UCphbxpXX3J65smsKXR62KGw/featured" class="transition-300 " rel="nofollow" target="_blank" title="Youtube">
+
+              <svg class="icon-footer icon-youtube" width="26" height="26" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 90.7 90.7" enable-background="new 0 0 90.7 90.7" xml:space="preserve">
+                <g>
+                  <g>
+                    <path fill="" d="M82.3,45.9c-0.9-4.1-4.3-7.1-8.3-7.5c-9.5-1.1-19.1-1.1-28.7-1.1c-9.6,0-19.2,0-28.7,1.1
+    c-4,0.4-7.3,3.5-8.3,7.5C7.1,51.7,7.1,58,7.1,64s0,12.3,1.3,18.1c0.9,4.1,4.3,7.1,8.3,7.5c9.5,1.1,19.1,1.1,28.7,1.1
+    c9.6,0,19.2,0,28.7-1.1c4-0.4,7.3-3.5,8.3-7.5c1.3-5.8,1.3-12.1,1.3-18.1C83.6,58,83.6,51.7,82.3,45.9z M28.9,50.4h-5.5v29.4h-5.1
+    V50.4h-5.4v-4.8h16.1V50.4z M42.9,79.8h-4.6v-2.8c-1.8,2.1-3.6,3.1-5.3,3.1c-1.5,0-2.5-0.6-3-1.9c-0.3-0.8-0.4-2-0.4-3.8V54.3h4.6
+    v18.8c0,1.1,0,1.6,0,1.8c0.1,0.7,0.5,1.1,1.1,1.1c0.9,0,1.9-0.7,2.9-2.2V54.3h4.6L42.9,79.8L42.9,79.8z M60.5,72.2
+    c0,2.4-0.2,4.1-0.5,5.1c-0.6,1.9-1.9,2.9-3.7,2.9c-1.6,0-3.2-0.9-4.8-2.8v2.5h-4.6V45.6h4.6v11.2c1.5-1.8,3.1-2.8,4.8-2.8
+    c1.8,0,3.1,1,3.7,2.9c0.3,1,0.5,2.7,0.5,5.1V72.2z M77.9,67.9h-9.3v4.5c0,2.4,0.8,3.5,2.4,3.5c1.1,0,1.8-0.6,2.1-1.9
+    c0-0.3,0.1-1.3,0.1-3.1h4.7v0.7c0,1.5-0.1,2.5-0.1,3c-0.2,1-0.5,2-1.1,2.8c-1.3,1.9-3.2,2.8-5.6,2.8c-2.4,0-4.3-0.9-5.6-2.6
+    c-1-1.3-1.5-3.3-1.5-6v-8.9c0-2.7,0.4-4.7,1.4-6c1.3-1.7,3.2-2.6,5.5-2.6c2.3,0,4.2,0.9,5.5,2.6c1,1.3,1.4,3.3,1.4,6L77.9,67.9
+    L77.9,67.9z" />
+                    <path fill="" d="M71,58.2c-1.5,0-2.3,1.2-2.3,3.5v2.4h4.6v-2.4C73.3,59.3,72.5,58.2,71,58.2z" />
+                    <path fill="" d="M53.8,58.2c-0.8,0-1.5,0.4-2.3,1.1v15.6c0.8,0.8,1.5,1.1,2.3,1.1c1.3,0,2-1.1,2-3.4V61.6
+    C55.8,59.3,55.1,58.2,53.8,58.2z" />
+                    <path fill="" d="M56.4,35c1.7,0,3.5-1,5.3-3.2v2.8h4.7V8.8h-4.7v19.7c-1,1.5-2,2.2-3,2.2c-0.6,0-1-0.4-1.1-1.1
+    c-0.1-0.2-0.1-0.7-0.1-1.8v-19H53v20.4c0,1.8,0.2,3.1,0.4,3.8C53.9,34.4,54.9,35,56.4,35z" />
+                    <path fill="" d="M23.9,20.6v14H29v-14L35.3,0H30l-3.5,13.6L22.8,0h-5.5c1.1,3.2,2.2,6.4,3.3,9.6
+    C22.3,14.5,23.4,18.1,23.9,20.6z" />
+                    <path fill="" d="M42.2,35c2.3,0,4.2-0.9,5.5-2.6c1-1.3,1.5-3.3,1.5-6.1v-9c0-2.8-0.5-4.8-1.5-6.1c-1.3-1.8-3.1-2.6-5.5-2.6
+    c-2.3,0-4.1,0.9-5.4,2.6c-1,1.3-1.5,3.3-1.5,6.1v9c0,2.7,0.5,4.8,1.5,6.1C38.1,34.1,39.9,35,42.2,35z M40,16.3
+    c0-2.4,0.7-3.6,2.2-3.6s2.2,1.2,2.2,3.6v10.9c0,2.4-0.7,3.6-2.2,3.6S40,29.5,40,27.1V16.3z" />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-wrapper__item">
+            <a href="https://www.facebook.com/armchairs.Barsky/" class="transition-300 footer-facebook__link" rel="nofollow" target="_blank" title="Facebook">
+              <svg class="icon-footer icon-facebook" width="26" height="26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 408.8 408.8" enable-background="new 0 0 408.8 408.8" xml:space="preserve">
+                <g>
+                  <path fill="" d="M202.4,408.8l0.3-146.1h-38c-4.9,0-8.9-4-9-8.9l-0.2-47.1c0-5,4-9,9-9h37.9v-45.5
+  c0-52.8,32.2-81.5,79.3-81.5h38.7c4.9,0,9,4,9,9v39.7c0,4.9-4,9-9,9l-23.7,0c-25.6,0-30.6,12.2-30.6,30v39.4h56.3
+  c5.4,0,9.5,4.7,8.9,10l-5.6,47.1c-0.5,4.5-4.4,7.9-8.9,7.9h-50.5l-0.3,146.1L202.4,408.8z" />
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class=" col-12 col-md-6  col-lg-2">
+        <p class="footer-title">
+          Каталог
+        </p>
+        <ul class="footer-menu">
+          <li class="footer-menu__item"><a href="catalog.html" class="footer-menu__link">Столы</a></li>
+          <li class="footer-menu__item"><a href="catalog.html" class="footer-menu__link">Кресла</a></li>
+          <li class="footer-menu__item"><a href="catalog.html" class="footer-menu__link">Станции</a></li>
+          <li class="footer-menu__item"><a href="catalog.html" class="footer-menu__link">Мебель</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Аксессуары</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Акции</a></li>
+        </ul>
+        <ul class="footer-menu footer-menu__mob">
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оплата и доставка</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Сотрудничество</a></li>
+
+          <li class="footer-menu__item"><a href="contacts.html" class="footer-menu__link">Контакты</a></li>
+
+        </ul>
+      </div>
+      <div class="d-none d-md-block  col-md-6  col-lg-2">
+        <p class="footer-title">
+          Информация
+        </p>
+        <ul class="footer-menu">
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оплата и доставка</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Сотрудничество</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вакансии</a></li>
+          <li class="footer-menu__item"><a href="contacts.html" class="footer-menu__link">Контакты</a></li>
+
+        </ul>
+      </div>
+      <div class=" d-none d-md-block  col-md-6  col-lg-2">
+        <p class="footer-title">
+          Связаться с нами
+        </p>
+        <ul class="footer-menu">
+          <li class="footer-menu__item"><a class="footer-menu__link" href="tel:+380442995349"> +38 (044) 299 53 49</a></li>
+          <li class="footer-menu__item"> <a class="footer-menu__link" href="mailto:client@barsky.ua">client@barsky.ua</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-md-block  col-md-6 col-lg-3">
+        <p class="footer-title">
+          Наш шоурум
+        </p>
+        <ul class="footer-menu">
+          <li class="footer-menu__item mb-3">
+            <p class="footer-text">
+              г. Днепр, ул. Шевченко 14
+            </p>
+          </li>
+          <li class="footer-menu__item">
+            <p class="footer-text">
+              Пн-Пт:9:00 - 19:00
+            </p>
+            <p class="footer-text">
+              Сб-Вс:10:00 - 18:00
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3">
+        <div class="footer-logo">
+          <img src="image/icon/barsky-logo-gold-2.svg" alt="Brand" width="178" height="147" class="brand-img__footer">
+        </div>
+      </div>
+      <div class="col-12">
+        <ul class="footer-pay d-flex">
+          <li class="footer-pay__item">
+            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/visa-footer.svg" alt="visa" width="54" height="18" class="visa-footer" > </a>
+          </li>
+          <li class="footer-pay__item">
+            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/mastercard-footer.svg" alt="mastercard" width="55" height="34" class="mastercard-footer"> </a>
+          </li>
+          <li class="footer-pay__item">
+            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/mono-footer.svg" alt="" width="26" height="26" class="mono-footer"> </a>
+          </li>
+          <li class="footer-pay__item">
+            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/loqpay-footer.svg" alt="" width="67" height="14" class="loqpay-footer"></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="copyright-text text-center">Copyright © 2021 BikeSport</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+
+</html>
