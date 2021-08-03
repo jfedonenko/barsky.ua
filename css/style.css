@@ -5940,7 +5940,7 @@ background-color: #e13028;
 }
 
 .accessories__actions.active{
-  background: transparent url('../image/blog/cart-icon-active.png') no-repeat center center / contain;
+  background: transparent url('../image/blog/cart-icon-active.png') no-repeat center center / contain !important;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background-size: 46px;
