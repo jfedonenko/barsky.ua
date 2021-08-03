@@ -6905,8 +6905,11 @@ align-items: center;
   .container.grid-container .cart-btn{
     width: 30px;
     height: 30px;
+    box-shadow: 0 0 6px rgba(255, 67, 59, 0.4);
+    border-radius: 8px;
 
   }
+
   .container.grid-container .product-container__home .cart-btn img{
     width: 22px;
     height: 19px;
