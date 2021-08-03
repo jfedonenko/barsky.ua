@@ -4262,7 +4262,9 @@ border-right: 3px solid #f2f2f2;
  ----- CONTACTS PAGE -----
 ==========================*/
 .readonly .input-group__input { border-color: #fff !important }
-
+#bday{
+  height: 45px;
+}
 
 .contact-form__title{
   text-align: center;
