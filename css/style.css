@@ -3579,6 +3579,11 @@ object-fit: cover;
   margin: 10px 2px;
 object-fit: cover;
 }
+.showroom .popup-gallery img{
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
 .media_add{
   color: #999999;
   font-size: 14px;
