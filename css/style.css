@@ -3112,11 +3112,9 @@ span.badge.btn-light.badge-pill{
 /*========================
      ----- CARD PAGE -----
 ==========================*/
-.card-page{
-  padding-bottom: 80px !important;
-}
+
 section#main{
-  padding: 10px 0 0 0;
+  padding: 10px 0 60px 0;
 }
 .input-group__input{
   width: 100% !important;
