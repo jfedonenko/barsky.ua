@@ -1270,6 +1270,13 @@ ul.navigation-list li{
   position: relative;
 }
 @media (max-width:1120px) {
+  .header-list li {
+    margin: 0;
+    height: 43px;
+  }
+  .mobile-list li{
+    height: 43px;
+  }
   .mobile-bg.active {
     opacity: 1;
     visibility: visible;
@@ -6416,10 +6423,7 @@ height: 40px;
     margin: auto;
   }
 
-  .header-list li {
-    margin: 0;
-    height: 43px;
-  }
+
 
 
 .coupon{
