@@ -3112,6 +3112,9 @@ span.badge.btn-light.badge-pill{
 /*========================
      ----- CARD PAGE -----
 ==========================*/
+.card-page{
+  padding-bottom: 80px !important;
+}
 section#main{
   padding: 10px 0 0 0;
 }
@@ -3656,6 +3659,7 @@ display: none;
   box-shadow: none;
   margin-top: 20px;
 }
+
 .card-page .old-price{
   font-size: 18px;
 }
