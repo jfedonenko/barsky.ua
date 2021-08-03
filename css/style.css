@@ -4427,7 +4427,14 @@ form.contact-form{
   flex-direction: row;
 margin: 20px 0;
 }
-.red{
+.price-station-title{
+ color: #2e2e2e;
+ font-family: "Rubik-Medium";
+font-size: 18px;
+
+}
+
+.price-station-red{
   color: #e13028;
   font-family: "Rubik-Medium";
 font-size: 26px;
@@ -6912,6 +6919,7 @@ align-items: center;
     width: 30px;
     height: 30px;
   }
+
   .container.grid-container img.play{
     width: 8px;
 height: 11px;
@@ -6976,6 +6984,10 @@ height: 11px;
   .container.grid-container.list-view .cart-btn img{
     width: 22px;
     height: 19px;
+  }
+  .container.grid-container .cart-btn img{
+    width: 18px;
+    height: 15px;
   }
   .container.grid-container.list-view img.gif{
     width: 46px;
@@ -7303,6 +7315,13 @@ font-size: 12px;
   }
   .shipping-info .input-group{
     margin-bottom: 15px;
+  }
+  .price-station-title{
+    font-size: 14px;
+  }
+  .price-station-red{
+    color: #e13028;
+font-size: 16px;
   }
 }
 
