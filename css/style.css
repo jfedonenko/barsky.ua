@@ -6026,6 +6026,7 @@ align-items: center;
 
   .blog-modal-search__input-group{
     max-width: 226px;
+    margin-bottom: 0;
   }
 
   .blog-modal-search__body{
