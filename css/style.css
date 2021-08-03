@@ -5041,20 +5041,19 @@ button.compare-btn.sidebar-widget__button img.basket-icon_f{
   cursor: pointer;
   margin-bottom: 5px;
 }
-.content-js a:hover,
+.tag-text:hover,
 .content a:hover
  {
 color: #fff;
 opacity: 1;
 }
-#loadMore {
+.loadMore {
   width: 40px;
   height: 26px;
   color: #2e2e2e;
 font-size: 16px;
 box-shadow: 0 0 8px rgba(204, 204, 204, 0.34);
 border-radius: 13px;
-background-color: #4dbfb2;
 background-image: linear-gradient(to right, #cdcdcd 0%, #e8e8e8 100%);
   display: block;
   text-align: center;
@@ -5062,14 +5061,13 @@ background-image: linear-gradient(to right, #cdcdcd 0%, #e8e8e8 100%);
   padding: 10px;
   border-radius: 10px;
   border: 1px solid transparent;
-  background-color: blue;
   transition: .3s;
   display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
-#loadMore:hover {
+.content .loadMore a:hover {
   color: #2e2e2e;
   background-color: #fff;
   text-decoration: none;
@@ -6026,6 +6024,7 @@ align-items: center;
 
   .blog-modal-search__input-group{
     max-width: 226px;
+    margin-bottom: 0;
   }
 
   .blog-modal-search__body{
@@ -6777,9 +6776,7 @@ height: 45px;
 .blog-offer__text{
   padding: 5px;
 }
-.load-more-container{
-  margin-top: 0;
-}
+
 
 .blog-article p {
   font-size: 14px;
