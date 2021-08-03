@@ -9,8 +9,8 @@
   <meta name="description" content="Компьютерные кресла, офисные столы и стулья от производителя по оптовой цене! Акции и новинки, скидки и выгодные предложения с доставкой по Украине! Заказ, информация и вопросы по тел. +38 (044) 492-61-00">
   <meta name="keywords" content="интернет, магазин, мебель, столы, стулья, кресла, купить, покупка, доставка, barsky">
   <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon.ico">
-  <link rel="stylesheet" href="fonts/Rubik-Regular.woff2" as="font">
-  <link rel="stylesheet" href="fonts/Rubik-Medium.woff2" as="font">
+  <link rel="preload" href="fonts/Rubik-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Rubik-Medium.woff2" as="font">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -433,7 +433,7 @@
               <img src="image/blog/gift.png" alt="Dummy image" class="gift__image">
               <div class="gift__caption">
                 <p class="gift__title">Подарок:</p>
-                <p class="gift__text"></p>
+                <p class="gift__text">
                   Геймерская поверхность Surface LED 800 * 300
                 </p> 
               </div>  
@@ -558,7 +558,7 @@
               <div class="order-promocode">
                 <div class="d-flex align-items-end">
                   <div class="input-group d-block">
-                    <label for="promo" class="input-group__label">Промокод</label>
+                    <label  class="input-group__label">Промокод</label>
                     <input type="text" class="input-group__input">
                   </div>
                   <button class="promocode-send" style="flex-shrink: 0;">Ok</button>
@@ -608,12 +608,12 @@
 
             
                 <div class="input-group">
-                  <label for="tel" class="input-group__label">Телефон</label>
+                  <label  class="input-group__label">Телефон</label>
               
                   <input type="text" name="tel" id="phone" autocomplete="tel" required placeholder="+38(___)___-__-__" class="input-group__input">
                   <div class="input-group__help">Это поле обязательно для заполнения</div>
                 </div>
-              </div>
+            
 
               <div class="shipping-info ">
                 <p class="shipping-info__title"><img src="image/icon/delivery-icon_2e.svg" alt="icon" class="shipping-info__icon" width="22" height="25">Способ доставки</p>
@@ -723,7 +723,7 @@
 
               
                 <div class="input-group">
-                  <label for="message" class="input-group__label">Комментарий к заказу</label>
+                  <label  class="input-group__label">Комментарий к заказу</label>
                 
                   <textarea name="message" id="myTextarea" class="input-group__input input-group__textarea"></textarea>
                        </div>
@@ -741,6 +741,7 @@
                   <button class="ripple checkout-button mx-auto form-group" type="submit">Подтвердить</button>
                   
                 </div>
+              </div>
               </form>
                 
               </div>

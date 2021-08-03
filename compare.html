@@ -9,8 +9,8 @@
   <meta name="description" content="Компьютерные кресла, офисные столы и стулья от производителя по оптовой цене! Акции и новинки, скидки и выгодные предложения с доставкой по Украине! Заказ, информация и вопросы по тел. +38 (044) 492-61-00">
   <meta name="keywords" content="интернет, магазин, мебель, столы, стулья, кресла, купить, покупка, доставка, barsky">
   <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon.ico">
-  <link rel="stylesheet" href="fonts/Rubik-Regular.woff2" as="font">
-  <link rel="stylesheet" href="fonts/Rubik-Medium.woff2" as="font">
+  <link rel="preload" href="fonts/Rubik-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Rubik-Medium.woff2" as="font">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -46,8 +46,8 @@
               </div>
               <div class="header-top__lang">
                 <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-language">
-                  <button class="header-top-lang__item active mr-2" type="button" name="ru-ru"> RU</button>
-                  <button class="header-top-lang__item " type="button" name="ua-ua">UA</button>
+                  <button class="header-top-lang__item active mr-2" name="ru-ru"> RU</button>
+                  <button class="header-top-lang__item " name="ua-ua">UA</button>
                   <input type="hidden" name="code" value="" />
                   <input type="hidden" name="redirect" value="{{ redirect }}" />
                 </form>
@@ -83,8 +83,8 @@
                 </div>
                 <div class="header__menu-list lang-header">
                   <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-language">
-                    <button class="header-top-lang__item header-mob-lang__item active mr-2" type="button" name="ru-ru"> RU</button>
-                    <button class="header-top-lang__item header-mob-lang__item" type="button" name="ua-ua">UA</button>
+                    <button class="header-top-lang__item header-mob-lang__item active mr-2" name="ru-ru"> RU</button>
+                    <button class="header-top-lang__item header-mob-lang__item" name="ua-ua">UA</button>
                     <input type="hidden" name="code" value="" />
                     <input type="hidden" name="redirect" value="{{ redirect }}" />
                   </form>
@@ -278,671 +278,672 @@
     </div>
     <div class="compares" id="contents">
       <div class="container  grid-container">
-      <div class="row">
-             <div class="col-12">
-          <p class="title-xl">
-            Сравнение товаров
-          </p>
+        <div class="row">
+          <div class="col-12">
+            <p class="title-xl">
+              Сравнение товаров
+            </p>
 
-          <div class="compare " data-slideout-ignore>
-            <div class="compare__sidebar">
-              <div class="compare__sidebar-one">
+            <div class="compare " data-slideout-ignore>
+              <div class="compare__sidebar">
+                <div class="compare__sidebar-one">
 
-                <button class="btn-compare compare__mobile-show">
-                  категория: <span>кресла (5 товаров)</span>
-                </button>
+                  <button class="btn-compare compare__mobile-show">
+                    категория: <span>кресла (5 товаров)</span>
+                  </button>
 
-                <div class="compare__category">
-                  <div>
-                    <button type="button" class="close close-sidebar compare__mobile-show" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+                  <div class="compare__category">
+                    <div>
+                      <button class="close close-sidebar compare__mobile-show" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div>
+                      <p class="compare__sidebar-title compare__mobile-hide">Категория товаров:</p>
+
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInCategory" class="custom-control-input" checked>
+                        <label class="custom-control-label" for="customRadioInline1"> Кресла (5 товаров) </label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInCategory" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2"> Станции (2 товара)</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline3" name="customRadioInCategory" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline3"> Столы (4 товара) </label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline4" name="customRadioInCategory" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline4"> Мебель (10 товаров)</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline5" name="customRadioInCategory" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline5"> Аксессуары (2 товара) </label>
+                      </div>
+                    </div>
+
                   </div>
-                  <div>
-                    <p class="compare__sidebar-title compare__mobile-hide">Категория товаров:</p>
 
+                  <div class="compare__filter">
+
+                    <p class="compare__sidebar-title compare__mobile-hide">Что показывать:</p>
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline1" name="customRadioInCategory" class="custom-control-input" checked>
-                      <label class="custom-control-label" for="customRadioInline1"> Кресла (5 товаров) </label>
+                      <input type="radio" id="customRadioInline6" name="customRadioInFilter" class="custom-control-input" checked>
+                      <label class="custom-control-label" for="customRadioInline6"> Все параметры</label>
                     </div>
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline2" name="customRadioInCategory" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline2"> Станции (2 товара)</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline3" name="customRadioInCategory" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline3"> Столы (4 товара) </label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline4" name="customRadioInCategory" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline4"> Мебель (10 товаров)</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline5" name="customRadioInCategory" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline5"> Аксессуары (2 товара) </label>
+                      <input type="radio" id="customRadioInline7" name="customRadioInFilter" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline7">Только отличия</label>
                     </div>
                   </div>
-
                 </div>
+                <div class=" compare__sidebar-two">
+                  <table class="table table-striped compare__table">
+                    <table class="compare__table">
+                      <tr>
+                        <td>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Тип:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Цвет:
+                                </td>
 
-                <div class="compare__filter">
+                              </tr>
+                            </tbody>
+                          </table>
 
-                  <p class="compare__sidebar-title compare__mobile-hide">Что показывать:</p>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline6" name="customRadioInFilter" class="custom-control-input" checked>
-                    <label class="custom-control-label" for="customRadioInline6"> Все параметры</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline7" name="customRadioInFilter" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline7">Только отличия</label>
-                  </div>
-                </div>
-              </div>
-              <div class=" compare__sidebar-two">
-                <table class="table table-striped compare__table">
-                  <table class="compare__table">
-                    <tr>
-                      <td>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Тип:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Цвет:
-                              </td>
-
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <table class="table  product-property-title">
-                          <tbody>
-                            <tr>
-                              <td class="compare__table-fixed">
-                                Обивка:
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="table  product-property-title">
+                            <tbody>
+                              <tr>
+                                <td class="compare__table-fixed">
+                                  Обивка:
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
                   </table>
+                </div>
+              </div>
+
+              <div class="compare__content overflow-auto " data-mcs-theme="3d-dark">
+                <div class="compare__content-head ">
+                  <!-- 1 стандартный -->
+                  <div class="product-container compare__card">
+                    <div class="product-box">
+                      <div class="product-content">
+                        <div class="product-wrap">
+                          <div>
+                            <p class="product-code"> SD-27</p>
+                          </div>
+                          <div class="product-close">
+                            <button class="close ripple-grey" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <a class="product-img__link" href="#">
+                            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                          </a>
+                        </div>
+                      </div>
+                      <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman Кресло геймерское с подставкой для ног Barsky Batman</a>
+                    </div>
+                    <div class="product-info">
+                      <div class="price">
+                        <div class="price__old">
+                          <div class="old-price">7 900 ₴</div>
+                          <div class="discount">- 1 901</div>
+                        </div>
+                        <div class="new-price">7 999 ₴</div>
+                      </div>
+                      <!-- Кнопка модального окна добавлено в корзину -->
+                      <button class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                        <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
+                      </button>
+
+                    </div>
+                  </div>
+
+                  <!-- 2 новинка, длинный арт -->
+
+                  <div class="product-container compare__card">
+                    <div class="product-box">
+                      <div class="product-content">
+                        <div class="product-wrap">
+                          <div>
+                            <p class="product-code">SPUMb_alu-03</p>
+                          </div>
+                          <div class="product-close">
+                            <button class="close" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <a class="product-img__link" href="#">
+                            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                          </a>
+                        </div>
+                        <div class="product-add position-relative">
+                          <div class="new-product position-absolute">NEW</div>
+                          <div class="gift-product position-absolute">
+                            <img src="image/catalog/gift1.png" alt="" class="gift-product__img mobile__none">
+
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman </a>
+                    </div>
+                    <div class="product-info">
+                      <div class="price">
+                        <div class="price__old">
+                          <div class="old-price">7 900 ₴</div>
+                          <div class="discount">- 1 901</div>
+                        </div>
+                        <div class="new-price">7 999 ₴</div>
+                      </div>
+                      <!-- Кнопка модального окна добавлено в корзину -->
+                      <button class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                        <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
+                      </button>
+                    </div>
+                  </div>
+                  <!-- 1 стандартный -->
+                  <div class="product-container compare__card">
+                    <div class="product-box">
+                      <div class="product-content">
+                        <div class="product-wrap">
+                          <div>
+                            <p class="product-code"> SD-27</p>
+                          </div>
+                          <div class="product-close">
+                            <button class="close" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <a class="product-img__link" href="#">
+                            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                          </a>
+                        </div>
+                      </div>
+                      <a href="#" class="product-title">Кресло Barsky Batman </a>
+                    </div>
+                    <div class="product-info">
+                      <div class="price">
+                        <div class="price__old">
+                          <div class="old-price">7 900 ₴</div>
+                          <div class="discount">- 1 901</div>
+                        </div>
+                        <div class="new-price">7 999 ₴</div>
+                      </div>
+                      <!-- Кнопка модального окна добавлено в корзину -->
+                      <button class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                        <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
+                      </button>
+                    </div>
+                  </div>
+                  <!-- 1 стандартный -->
+                  <div class="product-container compare__card">
+                    <div class="product-box">
+                      <div class="product-content">
+                        <div class="product-wrap">
+                          <div>
+                            <p class="product-code"> SD-27</p>
+                          </div>
+                          <div class="product-close">
+                            <button class="close" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <a class="product-img__link" href="#">
+                            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
+                          </a>
+                        </div>
+                      </div>
+                      <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman </a>
+                    </div>
+                    <div class="product-info">
+                      <div class="price">
+                        <div class="price__old">
+                          <div class="old-price">7 900 ₴</div>
+                          <div class="discount">- 1 901</div>
+                        </div>
+                        <div class="new-price">7 999 ₴</div>
+                      </div>
+                      <!-- Кнопка модального окна добавлено в корзину -->
+                      <button class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
+                        <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <table class="compare__table position-relative">
+                  <tr>
+                    <td>
+
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Тип:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              геймерские
+                            </td>
+                            <td class="product-property">
+                              офисное
+                            </td>
+                            <td class="product-property">
+                              офисное
+                            </td>
+                            <td class="product-property">
+                              офисное
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Цвет:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              черный, с рисунком
+                            </td>
+                            <td class="product-property">
+                              черный, с рисунком
+                            </td>
+                            <td class="product-property">
+                              черный, с рисунком
+                            </td>
+                            <td class="product-property">
+                              черный, с рисунком
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Обивка:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              экокожа
+                            </td>
+                            <td class="product-property">
+                              экокожа
+                            </td>
+                            <td class="product-property">
+                              экокожа
+                            </td>
+                            <td class="product-property">
+                              экокожа
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Рост:</p>
+                      </div>
+
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              165 - 180 см
+                            </td>
+                            <td class="product-property">
+                              165 - 180 см
+                            </td>
+                            <td class="product-property">
+                              165 - 180 см
+                            </td>
+                            <td class="product-property">
+                              165 - 180 см
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Подлокотники:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              регулируемые
+                            </td>
+                            <td class="product-property">
+                              регулируемые
+                            </td>
+                            <td class="product-property">
+                              регулируемые
+                            </td>
+                            <td class="product-property">
+                              регулируемые
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Колёса:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              обрезиненные PA
+                            </td>
+                            <td class="product-property">
+                              обрезиненные PA
+                            </td>
+                            <td class="product-property">
+                              обрезиненные PA
+                            </td>
+                            <td class="product-property">
+                              обрезиненные PA
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Вес с упаковкой:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              24,1 кг
+                            </td>
+                            <td class="product-property">
+                              24,1 кг
+                            </td>
+                            <td class="product-property">
+                              24,1 кг
+                            </td>
+                            <td class="product-property">
+                              24,1 кг
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Размер сиденья:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              530 х 520 мм
+                            </td>
+                            <td class="product-property">
+                              530 х 520 мм
+                            </td>
+                            <td class="product-property">
+                              530 х 520 мм
+                            </td>
+                            <td class="product-property">
+                              530 х 520 мм
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Размер спинки:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              540 х 840 мм
+                            </td>
+                            <td class="product-property">
+                              540 х 840 мм
+                            </td>
+                            <td class="product-property">
+                              540 х 840 мм
+                            </td>
+                            <td class="product-property">
+                              540 х 840 мм
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Высота кресла min-max:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              1230 - 1300 мм
+                            </td>
+                            <td class="product-property">
+                              1230 - 1300 мм
+                            </td>
+                            <td class="product-property">
+                              1230 - 1300 мм
+                            </td>
+                            <td class="product-property">
+                              1230 - 1300 мм
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Высота сидения min-max: </p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              460 - 530 мм
+                            </td>
+                            <td class="product-property">
+                              460 - 530 мм
+                            </td>
+                            <td class="product-property">
+                              460 - 530 мм
+                            </td>
+                            <td class="product-property">
+                              460 - 530 мм
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Высота подлокотников min-max:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              285 - 365 мм
+                            </td>
+                            <td class="product-property">
+                              285 - 365 мм
+                            </td>
+                            <td class="product-property">
+                              285 - 365 мм
+                            </td>
+                            <td class="product-property">
+                              285 - 365 мм
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="compare__table-head">
+                        <p class="compare-list__title">Особенности:</p>
+                      </div>
+                      <table class="table  product-property-title">
+                        <tbody>
+                          <tr>
+
+                            <td class="product-property">
+                              поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
+                            </td>
+                            <td class="product-property">
+                              поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
+                            </td>
+                            <td class="product-property">
+                              поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
+                            </td>
+                            <td class="product-property">
+                              поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
               </div>
             </div>
 
-            <div class="compare__content overflow-auto " data-mcs-theme="3d-dark">
-              <div class="compare__content-head ">
-                <!-- 1 стандартный -->
-                <div class="product-container compare__card">
-                  <div class="product-box">
-                    <div class="product-content">
-                      <div class="product-wrap">
-                        <div>
-                          <p class="product-code"> SD-27</p>
-                        </div>
-                        <div class="product-close">
-                          <button type="button" class="close ripple-grey" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="product-img">
-                        <a class="product-img__link" href="#">
-                          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
-                        </a>
-                      </div>
-                    </div>
-                    <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman Кресло геймерское с подставкой для ног Barsky Batman</a>
-                  </div>
-                  <div class="product-info">
-                    <div class="price">
-                      <div class="price__old">
-                        <div class="old-price">7 900 ₴</div>
-                        <div class="discount">- 1 901</div>
-                      </div>
-                      <div class="new-price">7 999 ₴</div>
-                    </div>
-                     <!-- Кнопка модального окна добавлено в корзину -->
-               <button type="button " class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
-                <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
-              </button>
-                   
-                  </div>
-                </div>
-
-                <!-- 2 новинка, длинный арт -->
-
-                <div class="product-container compare__card">
-                  <div class="product-box">
-                    <div class="product-content">
-                      <div class="product-wrap">
-                        <div>
-                          <p class="product-code">SPUMb_alu-03</p>
-                        </div>
-                        <div class="product-close">
-                          <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="product-img">
-                        <a class="product-img__link" href="#">
-                          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
-                        </a>
-                      </div>
-                      <div class="product-add position-relative">
-                        <div class="new-product position-absolute">NEW</div>
-                        <div class="gift-product position-absolute">
-                          <img src="image/catalog/gift1.png" alt="" class="gift-product__img mobile__none">
-
-                        </div>
-                      </div>
-                    </div>
-                    <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman </a>
-                  </div>
-                  <div class="product-info">
-                    <div class="price">
-                      <div class="price__old">
-                        <div class="old-price">7 900 ₴</div>
-                        <div class="discount">- 1 901</div>
-                      </div>
-                      <div class="new-price">7 999 ₴</div>
-                    </div>
-                    <!-- Кнопка модального окна добавлено в корзину -->
-               <button type="button " class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
-                <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
-              </button>
-                  </div>
-                </div>
-                <!-- 1 стандартный -->
-                <div class="product-container compare__card">
-                  <div class="product-box">
-                    <div class="product-content">
-                      <div class="product-wrap">
-                        <div>
-                          <p class="product-code"> SD-27</p>
-                        </div>
-                        <div class="product-close">
-                          <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="product-img">
-                        <a class="product-img__link" href="#">
-                          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
-                        </a>
-                      </div>
-                    </div>
-                    <a href="#" class="product-title">Кресло Barsky Batman </a>
-                  </div>
-                  <div class="product-info">
-                    <div class="price">
-                      <div class="price__old">
-                        <div class="old-price">7 900 ₴</div>
-                        <div class="discount">- 1 901</div>
-                      </div>
-                      <div class="new-price">7 999 ₴</div>
-                    </div>
-                   <!-- Кнопка модального окна добавлено в корзину -->
-               <button type="button " class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
-                <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
-              </button>
-                  </div>
-                </div>
-                <!-- 1 стандартный -->
-                <div class="product-container compare__card">
-                  <div class="product-box">
-                    <div class="product-content">
-                      <div class="product-wrap">
-                        <div>
-                          <p class="product-code"> SD-27</p>
-                        </div>
-                        <div class="product-close">
-                          <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="product-img">
-                        <a class="product-img__link" href="#">
-                          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-product">
-                        </a>
-                      </div>
-                    </div>
-                    <a href="#" class="product-title">Кресло геймерское с подставкой для ног Barsky Batman </a>
-                  </div>
-                  <div class="product-info">
-                    <div class="price">
-                      <div class="price__old">
-                        <div class="old-price">7 900 ₴</div>
-                        <div class="discount">- 1 901</div>
-                      </div>
-                      <div class="new-price">7 999 ₴</div>
-                    </div>
-                    <!-- Кнопка модального окна добавлено в корзину -->
-               <button type="button " class="compare-btn ripple" data-toggle="modal" data-target="#exampleModal">
-                <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">Купить
-              </button>
-                  </div>
-                </div>
-              </div>
-              <table class="compare__table position-relative">
-                <tr>
-                  <td>
-
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Тип:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            геймерские
-                          </td>
-                          <td class="product-property">
-                            офисное
-                          </td>
-                          <td class="product-property">
-                            офисное
-                          </td>
-                          <td class="product-property">
-                            офисное
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Цвет:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            черный, с рисунком
-                          </td>
-                          <td class="product-property">
-                            черный, с рисунком
-                          </td>
-                          <td class="product-property">
-                            черный, с рисунком
-                          </td>
-                          <td class="product-property">
-                            черный, с рисунком
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Обивка:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            экокожа
-                          </td>
-                          <td class="product-property">
-                            экокожа
-                          </td>
-                          <td class="product-property">
-                            экокожа
-                          </td>
-                          <td class="product-property">
-                            экокожа
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Рост:</p>
-                    </div>
-
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            165 - 180 см
-                          </td>
-                          <td class="product-property">
-                            165 - 180 см
-                          </td>
-                          <td class="product-property">
-                            165 - 180 см
-                          </td>
-                          <td class="product-property">
-                            165 - 180 см
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Подлокотники:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            регулируемые
-                          </td>
-                          <td class="product-property">
-                            регулируемые
-                          </td>
-                          <td class="product-property">
-                            регулируемые
-                          </td>
-                          <td class="product-property">
-                            регулируемые
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Колёса:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            обрезиненные PA
-                          </td>
-                          <td class="product-property">
-                            обрезиненные PA
-                          </td>
-                          <td class="product-property">
-                            обрезиненные PA
-                          </td>
-                          <td class="product-property">
-                            обрезиненные PA
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Вес с упаковкой:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            24,1 кг
-                          </td>
-                          <td class="product-property">
-                            24,1 кг
-                          </td>
-                          <td class="product-property">
-                            24,1 кг
-                          </td>
-                          <td class="product-property">
-                            24,1 кг
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Размер сиденья:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            530 х 520 мм
-                          </td>
-                          <td class="product-property">
-                            530 х 520 мм
-                          </td>
-                          <td class="product-property">
-                            530 х 520 мм
-                          </td>
-                          <td class="product-property">
-                            530 х 520 мм
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Размер спинки:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            540 х 840 мм
-                          </td>
-                          <td class="product-property">
-                            540 х 840 мм
-                          </td>
-                          <td class="product-property">
-                            540 х 840 мм
-                          </td>
-                          <td class="product-property">
-                            540 х 840 мм
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Высота кресла min-max:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            1230 - 1300 мм
-                          </td>
-                          <td class="product-property">
-                            1230 - 1300 мм
-                          </td>
-                          <td class="product-property">
-                            1230 - 1300 мм
-                          </td>
-                          <td class="product-property">
-                            1230 - 1300 мм
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Высота сидения min-max: </p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            460 - 530 мм
-                          </td>
-                          <td class="product-property">
-                            460 - 530 мм
-                          </td>
-                          <td class="product-property">
-                            460 - 530 мм
-                          </td>
-                          <td class="product-property">
-                            460 - 530 мм
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Высота подлокотников min-max:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            285 - 365 мм
-                          </td>
-                          <td class="product-property">
-                            285 - 365 мм
-                          </td>
-                          <td class="product-property">
-                            285 - 365 мм
-                          </td>
-                          <td class="product-property">
-                            285 - 365 мм
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="compare__table-head">
-                      <p class="compare-list__title">Особенности:</p>
-                    </div>
-                    <table class="table  product-property-title">
-                      <tbody>
-                        <tr>
-
-                          <td class="product-property">
-                            поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
-                          </td>
-                          <td class="product-property">
-                            поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
-                          </td>
-                          <td class="product-property">
-                            поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
-                          </td>
-                          <td class="product-property">
-                            поясничная подушка, консоль для ног, формованный пеноматериал, подушка под шею
-                          </td>
-
-                        </tr>
-                      </tbody>
-                    </table>
-
-                  </td>
-                </tr>
-              </table>
-
-            </div>
           </div>
-
         </div>
       </div>
     </div>
-  </div>
-</div>
+
   </section>
 
   <footer class="footer" id="footer">
@@ -1111,45 +1112,45 @@
     </div>
   </footer>
 
-    <!-- Модальное окно добавление в корзину -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-  
-            <p class="modal-title" id="exampleModalLabel"><img src="image/icon/done-icon.svg" alt="save" width="17"> добавлено в корзину</p>
-            <button type="button" class="ripple-grey close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+  <!-- Модальное окно добавление в корзину -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <p class="modal-title" id="exampleModalLabel"><img src="image/icon/done-icon.svg" alt="save" width="17"> добавлено в корзину</p>
+          <button class="ripple-grey close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body d-flex">
+
+          <a class="modal-img__link text-center" href="#">
+            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
+          </a>
+
+          <div class="modal-body_info">
+            <p class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
+            <div class="new-price">7 999 ₴</div>
+            <button class="modal-btn ripple ml-auto mt-2">
+              Оформить заказ
             </button>
           </div>
-          <div class="modal-body d-flex">
-  
-            <a class="modal-img__link text-center" href="#">
-              <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
-            </a>
-  
-            <div class="modal-body_info">
-              <p  class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
-              <div class="new-price">7 999 ₴</div>
-              <button class="modal-btn ripple ml-auto mt-2">
-                Оформить заказ
-              </button>
-            </div>
-  
-          </div>
-  
+
         </div>
+
       </div>
     </div>
+  </div>
 
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/slick.js"></script>
-<script src="js/script.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/script.min.js"></script>
 </body>
 
 </html>
