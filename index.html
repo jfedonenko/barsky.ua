@@ -1369,16 +1369,16 @@
       <div class="col-12">
         <ul class="footer-pay d-flex">
           <li class="footer-pay__item">
-            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/visa-footer.svg" alt="visa" width="54" height="18" class="visa-footer" > </a>
+            <img src="image/icon/visa-footer.svg" alt="visa" width="54" height="18" class="visa-footer" >
           </li>
           <li class="footer-pay__item">
-            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/mastercard-footer.svg" alt="mastercard" width="55" height="34" class="mastercard-footer"> </a>
+            <img src="image/icon/mastercard-footer.svg" alt="mastercard" width="55" height="34" class="mastercard-footer">
           </li>
           <li class="footer-pay__item">
-            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/mono-footer.svg" alt="" width="26" height="26" class="mono-footer"> </a>
+            <img src="image/icon/mono-footer.svg" alt="" width="26" height="26" class="mono-footer"> 
           </li>
           <li class="footer-pay__item">
-            <a href="" rel="nofollow" target="_blank"> <img src="image/icon/loqpay-footer.svg" alt="" width="67" height="14" class="loqpay-footer"></a>
+          <img src="image/icon/loqpay-footer.svg" alt="" width="67" height="14" class="loqpay-footer">
           </li>
         </ul>
       </div>
@@ -1398,7 +1398,36 @@
 </footer>
 
 
+ <!-- Модальное окно добавление в корзину -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
 
+        <p class="modal-title" id="exampleModalLabel"><img src="image/icon/save_m.svg" alt="save" width="20"> добавлено в корзину</p>
+        <button  class="close ripple-grey" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex">
+
+        <a class="modal-img__link text-center" href="#">
+          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
+        </a>
+
+        <div>
+          <p  class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
+          <div class="new-price">7 999 ₴</div>
+          <button class="compare-btn ripple ml-auto mt-2">
+            Оформить заказ
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 <script src="js/jquery-3.6.0.min.js"></script>
