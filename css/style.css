@@ -7812,7 +7812,7 @@ font-size: 16px;
   }
 }
 
-
+/* 
 @media (max-width: 576px) {
  
   .img-fluid  img{
@@ -7826,8 +7826,8 @@ font-size: 16px;
     min-height: 145px;
     
   }
-}
-@media (max-width: 520px) {
+} */
+/* @media (max-width: 520px) {
   .img-fluid  img{
        height: 190px ;
 
@@ -7850,7 +7850,7 @@ font-size: 16px;
   .img-fluid  img{
        height: 140px ;
 
-  }}
+  }} */
 
 
 /* Ripple effect */
