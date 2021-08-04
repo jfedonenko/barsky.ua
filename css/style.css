@@ -5926,8 +5926,8 @@ color: #2e2e2e;
   -webkit-box-shadow: 0 0 12px rgba(255, 67, 59, 0.45);
           box-shadow: 0 0 12px rgba(255, 67, 59, 0.45);
   border-radius: 8px;
-
-  background: #e13028 url('../image/blog/cart-icon.png') no-repeat center center / 28px 19px;
+  background-size: 42px;
+  background: #e13028 url('../image/blog/cart-icon.png') no-repeat center;
 }
 .accessories__actions:hover,
 .accessories__actions:focus,
@@ -5942,7 +5942,7 @@ background-color: #e13028;
 }
 
 .accessories__actions.active{
-  background:  url('../image/blog/cart-icon-active.png') no-repeat  center / contain !important;
+  background:  url('../image/blog/cart-icon-active.png') no-repeat  center  !important;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background-size: 42px;
