@@ -4263,7 +4263,9 @@ border-right: 3px solid #f2f2f2;
 ==========================*/
 .readonly .input-group__input { border-color: #fff !important }
 #bday{
-  height: 45px;
+  height: 45px !important;
+  border: transparent;
+  background-color: transparent;
 }
 
 .contact-form__title{
@@ -6521,7 +6523,7 @@ font-size: 14px;
   }
   button.button.accessories__actions.active{
     background-size: 34px;
-    margin-right: 8px;
+    margin-right: 3px;
   }
   .accessories__actions button{
     display: none
