@@ -6523,7 +6523,8 @@ font-size: 14px;
   }
   button.button.accessories__actions.active{
     background-size: 34px;
-    margin-right: 3px;
+    width: 55px;
+    height: 36px;
   }
   .accessories__actions button{
     display: none
