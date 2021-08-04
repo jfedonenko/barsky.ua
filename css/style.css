@@ -5942,17 +5942,19 @@ background-color: #e13028;
   -o-transition: unset;
   transition: unset;
 }
-
-.accessories__actions.active{
-  background:  url('../image/blog/cart-icon-active.png') no-repeat  center  !important;
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-  background-size: 42px;
-}
-
 .accessories__actions.active button{
   background-color: transparent;
 }
+
+.accessories__actions.active{
+  background-color: transparent;
+  background-image:  url('../image/blog/cart-icon-active.png') no-repeat  center  !important;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  background-size: 42px;
+  
+}
+
 
 .gift{
   border-radius: 10px;
@@ -6521,10 +6523,11 @@ font-size: 14px;
     border-radius: 8px;
     background-size: 23px 15px;
   }
-  button.button.accessories__actions.active{
+  .accessories__actions.active{
     background-size: 34px;
     width: 55px;
     height: 36px;
+
   }
   .accessories__actions button{
     display: none
