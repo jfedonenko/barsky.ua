@@ -5942,10 +5942,10 @@ background-color: #e13028;
 }
 
 .accessories__actions.active{
-  background: transparent url('../image/blog/cart-icon-active.png') no-repeat center center / contain !important;
+  background:  url('../image/blog/cart-icon-active.png') no-repeat  center / contain !important;
   -webkit-box-shadow: unset;
           box-shadow: unset;
-  background-size: 46px;
+  background-size: 42px;
 }
 
 .accessories__actions.active button{
