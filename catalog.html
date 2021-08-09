@@ -297,213 +297,191 @@
                     <input class="amount-text" type="text" id="amountMax" readonly>
                   </p>
                 </div>
-                <div class="accordion" id="accordionExample">
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <p class="mb-0 ">
-                        <button class="btn btn-link btn-block text-left filter-title"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                         Цвет
-                        </button>
+             
+                 
+                
+             
+                  <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <p class="panel-title">
+                        <a role="button"  data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Цвет
+                        </a>
                       </p>
-                    </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            <div class="accordion  section-filter__body">
 
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <div class="section-filter__body">
-
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>черный</span></span>
-
-                          </label>
-                          <div class="found mobile__none">
-                            <span class="found-search">Найдено: 12 </span>
-                            <button class="found-btn">Показать</button>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>черный</span></span>
+    
+                              </label>
+                              <div class="found mobile__none">
+                                <span class="found-search">Найдено: 12 </span>
+                                <button class="found-btn">Показать</button>
+                              </div>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>черный, с рисунком</span></span>
+                                <span class="badge btn-light badge-pill">3</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>красный</span></span>
+                                <span class="badge btn-light badge-pill">5</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>розовый</span></span>
+                                <span class="badge btn-light badge-pill">2</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>зеленый</span></span>
+                                <span class="badge btn-light badge-pill">14</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>синий</span></span>
+    
+                                <span class="badge btn-light badge-pill">14</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>фиолетовый</span></span>
+                                <span class="badge btn-light badge-pill">14</span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>оранжевый</span></span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>персиковый</span></span>
+                              </label>
+                            </div>
                           </div>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>черный, с рисунком</span></span>
-                            <span class="badge btn-light badge-pill">3</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>красный</span></span>
-                            <span class="badge btn-light badge-pill">5</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>розовый</span></span>
-                            <span class="badge btn-light badge-pill">2</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>зеленый</span></span>
-                            <span class="badge btn-light badge-pill">14</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>синий</span></span>
-
-                            <span class="badge btn-light badge-pill">14</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>фиолетовый</span></span>
-                            <span class="badge btn-light badge-pill">14</span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>оранжевый</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>персиковый</span></span>
-                          </label>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <p class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                         Тип колёс
-                        </button>
+                      <!-- end of panel -->
+                
+                      <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <p class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Тип колёс
+                        </a>
                       </p>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <div class="section-filter__body">
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span> для офиса </span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>компьютерное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>геймерское</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>массажное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>для руководителя</span></span>
-                          </label>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">   
+                            <div class="accordion section-filter__body">
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span> для офиса </span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>компьютерное</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>геймерское</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>массажное</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>для руководителя</span></span>
+                            </label>
+                          </div> </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <p class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Эргономика
-                        </button>
+                      <!-- end of panel -->
+                
+                      <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <p class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Эргономика
+                        </a>
                       </p>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <div class="section-filter__body">
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span> для офиса </span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>компьютерное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>геймерское</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>массажное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>для руководителя</span></span>
-                          </label>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">   
+                            <div class="accordion section-filter__body">
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span> для офиса </span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>компьютерное</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>геймерское</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>массажное</span></span>
+                            </label>
+                            <label class="section-filter__checkbox checkbox">
+                              <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                              <span class="checkbox__text"><span>для руководителя</span></span>
+                            </label>
+                          </div></div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <p class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Ососбенности
-                        </button>
+                      <!-- end of panel -->
+                
+                      <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                          <p class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Ососбенности
+                        </a>
                       </p>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <div class="section-filter__body">
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span> для офиса </span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>компьютерное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>геймерское</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>массажное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>для руководителя</span></span>
-                          </label>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                          <div class="panel-body">
+                            <div class="accordion section-filter__body">
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span> для офиса </span></span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>компьютерное</span></span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>геймерское</span></span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>массажное</span></span>
+                              </label>
+                              <label class="section-filter__checkbox checkbox">
+                                <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+                                <span class="checkbox__text"><span>для руководителя</span></span>
+                              </label>
+                            </div>
+                           </div>
                         </div>
                       </div>
+                      <!-- end of panel -->
+                
                     </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFive">
-                      <p class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed"  data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                       Подлокотники
-                        </button>
-                      </p>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <div class="section-filter__body">
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span> для офиса </span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>компьютерное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>геймерское</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>массажное</span></span>
-                          </label>
-                          <label class="section-filter__checkbox checkbox">
-                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-                            <span class="checkbox__text"><span>для руководителя</span></span>
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                    <!-- end of #accordion -->
+                
+              
+         
                 <div class="compare__mobile-show">
                   <p class="filter-text">
                     Найдено 12 товаров
@@ -858,7 +836,11 @@
                         <div class="product-add position-relative">
                           <div class="new-product position-absolute">NEW</div>
                           <div class="gift-product position-absolute">
-                            <img src="image/catalog/gift1.png" alt="" class="gift-product__img mobile__none">
+                      
+                              <img src="image/icon/gift-icon.svg" alt="" width="34" class="position-absolute gift-product__logo">
+                                  <!-- img подарка -->
+                                        <img src="image/icon/gift-produkt.svg" alt="" height="99" class="gift-product__produkt">
+                                  
 
                           </div>
                         </div>
@@ -1763,45 +1745,45 @@
     </div>
   </footer>
 
-   <!-- Модальное окно добавление в корзину -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
+ <!-- Модальное окно добавление в корзину -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
 
-          <p class="modal-title" id="exampleModalLabel"><img src="image/icon/save_m.svg" alt="save" width="20"> добавлено в корзину</p>
-          <button  class="close ripple-grey" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+        <p class="modal-title" id="exampleModalLabel">
+          <img src="image/icon/done-icon.svg" alt="advantage" width="13"> добавлено в корзину</p>
+        <button   class="ripple-grey close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex">
+
+        <a class="modal-img__link text-center" href="#">
+          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
+        </a>
+
+        <div class="modal-body_info">
+          <p class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
+          <div class="new-price">7 999 ₴</div>
+          <button class="modal-btn ripple ml-auto mt-2">
+            Оформить заказ
           </button>
-        </div>
-        <div class="modal-body d-flex">
-
-          <a class="modal-img__link text-center" href="#">
-            <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
-          </a>
-
-          <div>
-            <p  class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
-            <div class="new-price">7 999 ₴</div>
-            <button class="compare-btn ripple ml-auto mt-2">
-              Оформить заказ
-            </button>
-          </div>
-
         </div>
 
       </div>
+
     </div>
   </div>
-
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery.maskedinput.min.js"></script>
-  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="js/slick.js"></script>
-  <script src="js/script.min.js"></script>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/script.min.js"></script>
 </body>
 
 </html>

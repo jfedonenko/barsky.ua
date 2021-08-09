@@ -693,12 +693,45 @@
       </div>
     </div>
   </footer>
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/slick.js"></script>
-  <script src="js/script.min.js"></script>
+ <!-- Модальное окно добавление в корзину -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <p class="modal-title" id="exampleModalLabel">
+          <img src="image/icon/done-icon.svg" alt="advantage" width="13"> добавлено в корзину</p>
+        <button   class="ripple-grey close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex">
+
+        <a class="modal-img__link text-center" href="#">
+          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
+        </a>
+
+        <div class="modal-body_info">
+          <p class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
+          <div class="new-price">7 999 ₴</div>
+          <button class="modal-btn ripple ml-auto mt-2">
+            Оформить заказ
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/script.min.js"></script>
 </body>
 
 </html>
