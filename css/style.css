@@ -6499,11 +6499,7 @@ font-size: 14px;
   .blog-sidebar__thumbnail img{
     max-width: 126px;
   }
-  .sidebar-widget__button{
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 70px
-  }
+
   .sidebar-widget__button span{
     display: none
   }
@@ -8120,6 +8116,17 @@ color: #fff;
   background-color: #009678;
   color: #fff;
   border: none;
+}
+@media (max-width:  992px){
+  .blog-sidebar__widget .ripple-blog{
+    max-width: 70px;
+    padding: 0;
+
+  }
+  button.compare-btn.sidebar-widget__button.ripple-blog img{
+    width: 22px;
+    height: 19px;
+  }
 }
 .panel {
   border-width: 0 0 1px 0;
