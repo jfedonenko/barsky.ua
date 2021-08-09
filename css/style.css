@@ -7060,7 +7060,8 @@ font-size: 14px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 25px 0 5px;
+            margin: -20px 0 10px;
+          
   }
   
 .nav-tabs .nav-item.show .nav-link,
