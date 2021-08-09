@@ -648,7 +648,8 @@ ol.breadcrumb {
   font-size: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
-
+  white-space: nowrap;
+  overflow: hidden;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -660,6 +661,7 @@ ol.breadcrumb {
   -o-text-overflow: clip;
      text-overflow: clip;
   padding: 5px;
+  text-overflow: ellipsis
 
 }
 .breadcrumb-item+.breadcrumb-item::before{
