@@ -108,6 +108,7 @@
     </div>
   </div>
 
+
   <header class="blog-header">
     <div class="mobile-bg"></div>
     <div class="container">
@@ -125,7 +126,7 @@
             </div>
 
             <div class="text-center">
-              <a href="#" class="logo logo-blog"><img src="image/icon/лого_VR.png" alt="home logo"></a>
+              <a href="#" class="logo logo-blog"><img src="image/icon/VRblog-logo-header.svg" alt="home logo" width="200"></a>
             </div>
             <div class="">
               <a href="#" class="hashtag">#</a>
@@ -272,7 +273,8 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button">
+                 <!-- Кнопка модального окна добавлено в корзину -->
+                <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
                   <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
                   <span class="blog-button">Купить </span>
                 </button>
@@ -298,10 +300,11 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button">
-                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
-                  <span class="blog-button">Купить </span>
-                </button>
+                   <!-- Кнопка модального окна добавлено в корзину -->
+                   <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
+                    <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                    <span class="blog-button">Купить </span>
+                  </button>
               </div>
             </div>
             <div class="blog-sidebar__widget">
@@ -324,10 +327,11 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button">
-                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
-                  <span class="blog-button">Купить </span>
-                </button>
+                   <!-- Кнопка модального окна добавлено в корзину -->
+                   <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
+                    <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                    <span class="blog-button">Купить </span>
+                  </button>
               </div>
             </div>
             <div class="blog-sidebar__widget">
@@ -350,10 +354,11 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button">
-                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
-                  <span class="blog-button">Купить </span>
-                </button>
+                   <!-- Кнопка модального окна добавлено в корзину -->
+                   <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
+                    <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                    <span class="blog-button">Купить </span>
+                  </button>
               </div>
             </div>
             <div class="blog-sidebar__widget">
@@ -376,10 +381,11 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button ">
-                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
-                  <span class="blog-button">Купить </span>
-                </button>
+                  <!-- Кнопка модального окна добавлено в корзину -->
+                  <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
+                    <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                    <span class="blog-button">Купить </span>
+                  </button>
               </div>
             </div>
             <div class="blog-sidebar__widget">
@@ -402,10 +408,11 @@
                   </div>
                   <div class="new-price new-price_blog">7 999 ₴</div>
                 </div>
-                <button class="compare-btn sidebar-widget__button ripple">
-                  <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
-                  <span class="blog-button">Купить </span>
-                </button>
+                    <!-- Кнопка модального окна добавлено в корзину -->
+                    <button class="compare-btn sidebar-widget__button ripple-blog " data-toggle="modal" data-target="#exampleModal">
+                      <img src="image/icon/basket-icon_f.svg" class="basket-icon_f" alt="icon" width="22" height="19">
+                      <span class="blog-button">Купить </span>
+                    </button>
               </div>
             </div>
           </aside>
@@ -423,7 +430,38 @@
       </div>
     </div>
   </footer>
+ <!-- Модальное окно добавление в корзину -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
 
+        <p class="modal-title" id="exampleModalLabel">
+          <img src="image/icon/done-icon.svg" alt="advantage" width="13"> добавлено в корзину</p>
+        <button   class="ripple-grey close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex">
+
+        <a class="modal-img__link text-center" href="#">
+          <img src="image/catalog/catalog0.jpg" alt="furniture" class="img-modal">
+        </a>
+
+        <div class="modal-body_info">
+          <p class="product-title">Кресло геймерское с подставкой для ног Barsky Batman</p>
+          <div class="new-price">7 999 ₴</div>
+            
+             <button class="compare-btn sidebar-widget__button ripple-blog ml-auto mt-2 ">
+                            <span class="blog-button">  Оформить заказ </span>
+            </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
